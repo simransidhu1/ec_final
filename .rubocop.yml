@@ -1,0 +1,56 @@
+inherit_from: .rubocop_todo.yml
+AllCops:
+  Exclude:
+    - db/migrate/**/*
+    - db/schema.rb
+    - config/**/*
+    - script/**/*
+    - bin/**/*
+    - test/**/*
+    - app/admin/**/*
+    - app/channels/**/*
+    - app/jobs/**/*
+    - node_modules/**/*
+    - Gemfile
+    - Rakefile
+    - config.ru
+
+
+Style/Encoding:
+  Enabled: false
+
+
+Style/NumericLiterals:
+  Exclude:
+    - 'db/cable_schema.rb'
+    - 'db/cache_schema.rb'
+    - 'db/schema.rb'
+
+Style/NumericPredicate:
+  Exclude:
+    - 'spec/**/*'
+    - 'app/controllers/carts_controller.rb'
+
+Style/PerlBackrefs:
+  Exclude:
+    - 'bin/bundle'
+
+Style/RedundantRegexpEscape:
+  Exclude:
+    - 'app/models/page.rb'
+
+Style/SpecialGlobalVars:
+  EnforcedStyle: use_perl_names
+Style/StringLiterals:
+  Enabled: false
+
+Style/SymbolArray:
+  EnforcedStyle: percent
+  MinSize: 13
+Style/WordArray:
+  EnforcedStyle: percent
+  MinSize: 5
+
+
+Layout/LineLength:
+  Max: 198

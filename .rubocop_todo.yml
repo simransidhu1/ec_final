@@ -1,0 +1,243 @@
+
+Bundler/DuplicatedGroup:
+  Exclude:
+    - 'Gemfile'
+
+Bundler/OrderedGems:
+  Exclude:
+    - 'Gemfile'
+
+Layout/CommentIndentation:
+  Exclude:
+    - 'config/routes.rb'
+
+
+Layout/DefEndAlignment:
+  Exclude:
+    - 'app/controllers/admin/products_controller.rb'
+
+
+Layout/EmptyComment:
+  Exclude:
+    - 'config/routes.rb'
+
+Layout/EmptyLineAfterGuardClause:
+  Exclude:
+    - 'app/controllers/checkout_controller.rb'
+    - 'bin/bundle'
+
+Layout/EmptyLineBetweenDefs:
+  Exclude:
+    - 'app/controllers/admin/products_controller.rb'
+    - 'app/controllers/application_controller.rb'
+    - 'app/controllers/pages_controller.rb'
+    - 'app/controllers/products_controller.rb'
+    - 'app/controllers/sessions_controller.rb'
+
+
+Layout/EmptyLines:
+  Exclude:
+    - 'Gemfile'
+    - 'app/controllers/application_controller.rb'
+    - 'app/controllers/pages_controller.rb'
+    - 'app/controllers/products_controller.rb'
+    - 'app/models/order.rb'
+    - 'config/routes.rb'
+    - 'db/seeds.rb'
+
+
+Layout/EmptyLinesAroundAccessModifier:
+  Exclude:
+    - 'db/migrate/20250411182939_create_active_storage_tables.active_storage.rb'
+
+
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'config/routes.rb'
+
+
+Layout/EmptyLinesAroundClassBody:
+  Exclude:
+    - 'app/controllers/admin/provinces_controller.rb'
+    - 'app/controllers/pages_controller.rb'
+    - 'app/controllers/products_controller.rb'
+    - 'app/models/product.rb'
+
+
+Layout/EmptyLinesAroundMethodBody:
+  Exclude:
+    - 'app/controllers/admin/products_controller.rb'
+
+
+Layout/EndAlignment:
+  Exclude:
+    - 'app/controllers/admin/orders_controller.rb'
+    - 'app/controllers/admin/products_controller.rb'
+    - 'app/controllers/checkout_controller.rb'
+    - 'app/helpers/application_helper.rb'
+    - 'app/models/order_status_change.rb'
+    - 'app/models/page.rb'
+    - 'app/models/province.rb'
+    - 'app/models/user.rb'
+    - 'app/services/order_status_updater.rb'
+
+Layout/ExtraSpacing:
+  Exclude:
+    - 'app/controllers/carts_controller.rb'
+    - 'config/routes.rb'
+    - 'db/migrate/20250411162620_rename_encrypted_password_to_password.rb'
+
+Layout/FirstArgumentIndentation:
+  Exclude:
+    - 'app/controllers/admin/products_controller.rb'
+
+Layout/IndentationConsistency:
+  Exclude:
+    - 'app/controllers/admin/products_controller.rb'
+    - 'app/controllers/products_controller.rb'
+    - 'config/routes.rb'
+    - 'db/migrate/20250411182939_create_active_storage_tables.active_storage.rb'
+
+Layout/IndentationWidth:
+  Exclude:
+    - 'app/controllers/admin/orders_controller.rb'
+    - 'app/controllers/admin/products_controller.rb'
+    - 'app/controllers/checkout_controller.rb'
+    - 'app/controllers/products_controller.rb'
+    - 'app/helpers/application_helper.rb'
+    - 'app/models/order_status_change.rb'
+    - 'app/models/page.rb'
+    - 'app/models/province.rb'
+    - 'app/models/user.rb'
+    - 'app/services/order_status_updater.rb'
+    - 'config/routes.rb'
+    - 'db/migrate/20250411182939_create_active_storage_tables.active_storage.rb'
+
+
+Layout/LeadingEmptyLines:
+  Exclude:
+    - 'app/controllers/application_controller.rb'
+    - 'app/controllers/pages_controller.rb'
+    - 'db/seeds.rb'
+
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Exclude:
+    - 'config/environments/production.rb'
+    - 'db/migrate/20250411182939_create_active_storage_tables.active_storage.rb'
+    - 'db/queue_schema.rb'
+    - 'test/application_system_test_case.rb'
+
+
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Exclude:
+    - 'Gemfile'
+
+
+Layout/TrailingEmptyLines:
+  Enabled: false
+
+
+Layout/TrailingWhitespace:
+  Enabled: false
+
+
+Lint/EmptyFile:
+  Exclude:
+    - 'app/models/provinces.rb'
+
+Metrics/AbcSize:
+  Max: 30
+
+
+Metrics/BlockLength:
+  Max: 124
+
+
+Metrics/CyclomaticComplexity:
+  Max: 9
+
+
+Metrics/MethodLength:
+  Max: 34
+
+Metrics/PerceivedComplexity:
+  Max: 9
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'app/controllers/admin/dashboard_controller.rb'
+    - 'app/controllers/admin/products_controller.rb'
+    - 'app/helpers/admin/products_helper.rb'
+    - 'test/controllers/admin/products_controller_test.rb'
+
+Style/CommentedKeyword:
+  Exclude:
+    - 'db/migrate/20250411162620_rename_encrypted_password_to_password.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Exclude:
+    - 'app/controllers/admin/orders_controller.rb'
+    - 'app/controllers/admin/provinces_controller.rb'
+    - 'app/controllers/sessions_controller.rb'
+
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+
+Style/GlobalStdStream:
+  Exclude:
+    - 'bin/setup'
+    - 'config/environments/production.rb'
+
+
+Style/GuardClause:
+  Exclude:
+    - 'app/controllers/admin/orders_controller.rb'
+    - 'app/controllers/application_controller.rb'
+
+Style/IfUnlessModifier:
+  Exclude:
+    - 'app/controllers/admin/orders_controller.rb'
+    - 'app/controllers/products_controller.rb'
+    - 'bin/bundle'
+
+
+Style/NumericLiterals:
+  Exclude:
+    - 'db/cable_schema.rb'
+    - 'db/cache_schema.rb'
+    - 'db/schema.rb'
+
+Style/NumericPredicate:
+  Exclude:
+    - 'spec/**/*'
+    - 'app/controllers/carts_controller.rb'
+
+Style/PerlBackrefs:
+  Exclude:
+    - 'bin/bundle'
+
+Style/RedundantRegexpEscape:
+  Exclude:
+    - 'app/models/page.rb'
+
+Style/SpecialGlobalVars:
+  EnforcedStyle: use_perl_names
+Style/StringLiterals:
+  Enabled: false
+
+Style/SymbolArray:
+  EnforcedStyle: percent
+  MinSize: 13
+Style/WordArray:
+  EnforcedStyle: percent
+  MinSize: 5
+
+
+Layout/LineLength:
+  Max: 198
